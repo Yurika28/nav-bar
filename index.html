@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="header">
+        <button class="link">Home</button>
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>Services</button>
+            <div class="dropdown-menu information-grid">
+                <div>
+                    <div class="dropdown-heading">Blockchain & Cryptocurrency</div>
+                    <div class="dropdown-links">
+                        <a href="" class="link">Cryptocurrency Exchanges</a>
+                        <a href="" class="link">Blockchain Development Solutions</a>
+                        <a href="" class="link">Decentralized Finance (DeFi)</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown-heading">Insurtech</div>
+                    <div class="dropdown-links">
+                        <a href="" class="link">Digital Insurance</a>
+                        <a href="" class="link">AI-Powered Risk Assessments</a>
+                        <a href="" class="link">Claims Automation</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown-heading">Robo-Advisors & Trading</div>
+                    <div class="dropdown-links">
+                        <a href="" class="link">Robo-Advisors</a>
+                        <a href="" class="link">Algorithmic Trading</a>
+                        <a href="" class="link">Wealth Management Tools</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown-heading">Lending & Credit</div>
+                    <div class="dropdown-links">
+                        <a href="" class="link">Peer-to-Peer Lending</a>
+                        <a href="" class="link">Credit Scoring</a>
+                        <a href="" class="link">Loan Aggregators</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>About Us</button>
+            <div class="dropdown-menu company information-grid">
+                <div>
+                    <div class="dropdown-links">
+                        <a href="" class="link">Company Profile</a>
+                        <a href="" class="link">Stakeholders</a>
+                        <a href="" class="link">Contacts</a>
+                        <a href="" class="link">Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>Login</button>
+            <div class="dropdown-menu information-grid">
+            <form class="login-form" action="/action_page.php" method="get">
+                <label for="username">Username</label>
+                <input type="text" name="" id="name">
+                <label for="email">Email</label>
+                <input type="email">
+                <label for="password">Password</label>
+                <input type="password">
+                <button type="submit">Login</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
